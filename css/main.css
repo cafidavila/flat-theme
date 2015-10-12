@@ -25,6 +25,79 @@
 
 body{
 	font-family: Roboto, sans-serif;
+	background: #F5F5F5;
+}
+.bg-white{
+	background: white;
+}
+.btn-primary{
+	margin-bottom: 5px;
+}
+li{
+	list-style: none;
+}
+.breadcrumb{
+	background-color: transparent;
+	margin-top: 50px;
+}
+header a, footer a{
+	color: white;
+}
+.progress{
+	background-color: white;
+	height: 30px;
+}
+.progress-bar{
+	padding: 1%;
+}
+section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.bg-white{
+	background-color: white;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 25px;
+}
+.bg-white img{
+	margin-left: -15px;
+}
+form+.row .img-responsive{
+	border-radius: 4%;
+	margin-bottom: 10px;
+}
+li{
+	list-style: none;
+}
+.copyright{
+	background-color: rgba(1, 1, 1, 0.5);
+}
+.line{
+	border: 1px solid grey;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.btn-primary{
+	margin-bottom: 5px;
+}
+form{
+	margin-bottom: 5px;
+}
+.bg-icon{
+	background: grey;
+	border-radius: 100%;
+	margin-top: 5%;
+	width: 80px;
+	height: 80px;
+	position: relative;
+}
+.bg-icon i{
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	top: 20%;
+	left: 25%;
 }
 /*header*/
 
@@ -78,7 +151,7 @@ body{
 
 
 /* project*/
-.bg-white{
+.bg-gray{
 	background: #F5F5F5;
 }
 .pagination li a{
