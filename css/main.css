@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.no-top{
+	margin-top: -20px;
+}
+.color-white{
+	color:white;
+}
+.m-b-50{
+  margin-bottom: 50px;
+}
+
+body{
+	font-family: Roboto, sans-serif;
+}
+/*header*/
+
+.bg-dark{
+	background: #34495E;
+}
+.bg-dark .navbar-nav>.active>a{
+	background: #2C3E50;
+	color: white;
+}
+.bg-dark .navbar-nav>.active>a:hover{
+	background: #2C3E50;
+	color: white;
+}
+.bg-dark .navbar-nav > li > a {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+    color: #bdc3c7;
+}
+.bg-dark .navbar-nav > li > a:hover {
+   color:white;
+   background: none;
+}
+.bg-dark .navbar-nav{
+	margin-top: 10px;
+}
+/*/header*/
+
+
+/*redes*/
+.bg-green{
+	background: #2ECC71;
+}
+.pd-50{
+	padding: 50px 0px;
+}
+.icon-media{
+	color:white;
+	font-size: 35px;
+	background-color: rgba(0,0,0,0.4);
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	margin-right: 10px;
+}
+/*/redes*/
+
+
+/* project*/
+.bg-white{
+	background: #F5F5F5;
+}
+.pagination li a{
+	color: white;
+	background-color: #D9534F;
+}
+.pagination li a:hover {
+	background-color: #D33834;
+}
+.bg-img{
+	background-color: white;
+	padding: 10px 10px 2px;
+}
+
+/*clients*/
+.bg-orange{
+	background-color: #E74C3C;
+}
+#clients small{
+	color: white;
+}
+/*/clients*/
+.color-gray{
+	color: #bdc3c7;
+}
+
+/*contact*/
+#contact ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+#contact a{
+	color: #bdc3c7;
+	margin-left: 5px;
+}
+
+#contact li:before{
+	content: ">";
+	color:white;
+}
+.btn-orange{
+	color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+/*/contact*/
+
+
+/*footer*/
+ footer{
+ 	padding: 20px;
+ 	background: #2C3E50;
+ }
+footer a{
+	margin-right: 10px;
+}
+/*/footer*/
+
+
+
+/* button-social*/
+.btn-social {
+    border: 0;
+    color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    padding: 0;
+}
+.btn-facebook{
+	background: #4f7dd4;
+}
+.btn-google-plus {
+    background: #dc422b;
+}
+.btn-twitter {
+    background: #5bceff;
+}
+.btn-linkedin {
+    background: #21a6d8;
+}
