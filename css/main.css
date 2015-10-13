@@ -27,6 +27,18 @@ body{
 	font-family: Roboto, sans-serif;
 	background: #F5F5F5;
 }
+
+/*carusel*/
+.item{
+	background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color:white;
+}
+.carousel-text{
+	margin-top: 250px;
+}
 .bg-white{
 	background: white;
 }
