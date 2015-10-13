@@ -27,6 +27,31 @@ body{
 	font-family: Roboto, sans-serif;
 	background: #F5F5F5;
 }
+.portfolio a{
+  float: left;
+  position: relative;
+  background-color: rgba(46, 204, 113, 0.5);
+}
+.portfolio a i{
+  font-size: 50px;
+  position: absolute;
+  top: 40%;
+  right: 43%;
+  color: transparent;
+}
+.portfolio a:hover i{
+  color: white;
+}
+.portfolio a:hover img{
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  opacity: 0.1;
+}
+.portfolio a:hover{
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: rgba(46, 204, 113, 0.9);
+}
 
 /*carusel*/
 .item{
@@ -172,6 +197,17 @@ form{
 .bg-img{
 	background-color: white;
 	padding: 10px 10px 2px;
+	margin-bottom: 20px;
+}
+/*modal*/
+
+.modal{
+	background color: rgba(1, 1, 1, 0.5);
+}
+.modal img{
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 /*clients*/

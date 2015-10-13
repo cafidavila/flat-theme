@@ -29,3 +29,15 @@ jQuery(function ($) {
         }, 500);
     });
 });
+
+
+//modal
+
+function CambiarEstilo() {
+    var elemento = document.getElementById("icon-menu");
+    if (elemento.className == "fa fa-bars") {
+      elemento.className = "fa fa-times";
+    }else {
+      elemento.className = "fa fa-bars";
+    }
+}
